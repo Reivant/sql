@@ -21,7 +21,8 @@
 
 LOCK TABLES `jual` WRITE;
 /*!40000 ALTER TABLE `jual` DISABLE KEYS */;
-INSERT INTO `jual` VALUES (1,'jisamsu',17000,20),(2,'signature',20000,30),(4,'sampoerna',25000,15);
+INSERT INTO jual(nama colom)
+VALUES (1,'jisamsu',17000,20),(2,'signature',20000,30),(4,'sampoerna',25000,15);
 /*!40000 ALTER TABLE `jual` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
